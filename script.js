@@ -106,7 +106,7 @@ document.addEventListener("keydown", (x) => {
     if (position == 0) {
       squares[position].removeChild(document.querySelector(".selected"));
       position = 5;
-      charSelected.src = "images/char-vega.png";
+      charSelected.src = "images/char-vinny.png";
       dynamicChange();
       return;
     }
