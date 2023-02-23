@@ -83,7 +83,7 @@ document.addEventListener("keydown", (x) => {
     if (position == 5) {
       squares[position].removeChild(document.querySelector(".selected"));
       position = 0;
-      charSelected.src = "images/ambro.png";
+      charSelected.src = "images/ambro pixel.png";
       dynamicChange();
       return;
     }
